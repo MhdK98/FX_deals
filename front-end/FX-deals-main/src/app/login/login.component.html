@@ -1,0 +1,47 @@
+<div class="row" align="center" style="margin-left: 0px;margin-right:0px;">
+    <br> <br> <br> <br>
+    <div class=" container"
+        style="margin-top: 70px; padding: 0px !important;">
+  <h1 class="h3 mb-3 font-weight-normal text-center" style="margin-top: 15p;">FX DEALS</h1>
+  <div class="col-md-4 col-sm-12 bg-light p-3 border rounded shadow"
+            style="margin-left: auto; margin-right: auto;">
+            <form class="form-signin"  [formGroup]="loginForm" style="padding: 10px;">
+                <br>
+                <br>
+            <div class="error">
+
+            </div>
+                <span class="error" style="font-size: 16px;"></span>
+                <div class="form-group">
+                    <label for="username">username :</label>
+                    <input id="username" formControlName="username" class="form-control" placeholder="username" >
+                </div>
+                <div class="form-group">
+                    <label for="username">password :</label>
+                    <input id="username" formControlName="password" class="form-control" placeholder="password" >
+                </div>
+                <!-- <mat-form-field >
+                     <mat-label>username :</mat-label>
+                    <input formControlName="username" matInput
+                           placeholder="username" >
+                </mat-form-field>
+                <mat-form-field >
+                    <mat-label>password :</mat-label>
+                    <input formControlName="password" matInput
+                           placeholder="password" >
+                </mat-form-field> -->
+                <!--
+                <label for="" class="sr-only">username :</label>
+                <input type="text" id="username" class="form-control req"
+                    placeholder="password" autofocus="true" />
+
+                <label for="" class="sr-only">password :</label>
+                <input type="password" id="Pass" class="form-control req"
+                    placeholder="password" />-->
+                <br>
+                <button mat-raised-button (click)="getCredintials()" class="btn btn-lg btn-primary btn-block" type="submit" id="SignIn">SignIn</button>
+                <br>
+            </form>
+        </div>
+    </div>
+</div>
